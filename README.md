@@ -4,6 +4,13 @@ An example of how to use the tailwindcss standalone CLI to generate CSS for temp
 
 ## Tasks
 
+### install-deps
+
+```
+go install github.com/a-h/templ/cmd/templ@main
+npm install -g tailwindcss
+```
+
 ### generate-css
 
 ```

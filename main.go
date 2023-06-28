@@ -20,5 +20,5 @@ func main() {
 func run() error {
 	http.Handle("/", templ.Handler(home()))
 	http.Handle("/public/", http.StripPrefix("/public", http.FileServer(http.FS(FS))))
-	return http.ListenAndServe("localhost:8081", nil)
+	return http.ListenAndServe("localhost:8080", nil)
 }
